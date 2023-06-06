@@ -9,6 +9,8 @@
     <bean id = "musicBean" class="ru.alishev.springcourse.ClassicalMusic">
     </bean>
     <bean id="musicPlayer" class="ru.alishev.springcourse.MusicPlayer">
-    <constructor-arg ref="musicBean"/>
+    <property name="music" ref="musicBean"/>
+        <property name="name" value="Nokia"/>
+        <property name="volume" value="30"/>
     </bean>
 </beans>
