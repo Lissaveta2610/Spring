@@ -7,6 +7,6 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id = "testBean" class="ru.alishev.springcourse.TestBean">
-        <constructor-arg value="Liza"/>
+        <constructor-arg value="Aleksey"/>
     </bean>
 </beans>
